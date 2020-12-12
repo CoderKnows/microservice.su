@@ -1,0 +1,60 @@
+body {
+    background-color: #222222;
+    color: whitesmoke;
+}
+
+.page-header {
+    text-align: center;
+}
+
+.page-header span {
+    color: rgba(250, 250, 250, .1);
+}
+
+.page-header span.color-transparent {
+    color: transparent;
+}
+
+.service-list {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.service-list tr th,
+.service-list tr td {
+    padding: .5em 1em;
+}
+
+.service-list tbody tr {
+    border: 1px dotted transparent;
+}
+
+.service-list tbody tr a {
+    color: whitesmoke;
+    text-decoration: none;
+    outline: none;
+}
+
+.service-list tbody tr:hover a {
+    color: black;
+}
+
+.service-list tbody tr:hover {
+    background-color: #EEEEEE;
+    border: 1px dotted #EEEEEE;
+    color: black;
+}
+
+.service-list tr td:nth-child(2) {
+    text-align: center;
+}
+
+.service-list tr td:nth-child(2).offline {
+    background-color: rgba(255, 0, 0, .5);
+}
+
+.service-list tbody {
+    border-top: 1px solid whitesmoke;
+    border-collapse: separate;
+    border-spacing: 4px;
+}
